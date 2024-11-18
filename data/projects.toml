@@ -1,9 +1,16 @@
-[[list]]
-name = "Demo1"
-url = "neoncoder.com"
-desc = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 [[list]]
-name = "Demo2"
-url = "neoncoder.com"
-desc = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+name = "Netflix GPT"
+url = "https://github.com/nimishgo/movie-gpt"
+desc = "A movie recommendation chatbot powered by GPT."
+
+[[list]]
+name = "go-pokedex-repl"
+url = "https://github.com/nimishgo/go-pokedex-repl"
+desc = "CLI-based Pokédex using PokeAPI. Explore regions, catch, and inspect Pokémon."
+
+[[list]]
+name = "Blog App"
+url = "https://github.com/nimishgo/my-blog"
+desc = "A full-stack MERN application (MongoDB, Express, React, Node.js) styled with Tailwind CSS. Features dual clients: Blog (for visitors, with messaging) and Editor (for owner-exclusive post management and comment moderation)."
+

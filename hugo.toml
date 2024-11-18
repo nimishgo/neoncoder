@@ -4,38 +4,34 @@ title = 'Nimish Space'
 theme = 'cactus'
 
 [params]
-  colortheme='dark'
-  css = ["css/custom.css"]
-  description = "Hello and welcome to my cyberspace! I'm just a guy who loves programming, gaming, learning, and watching all kinds of stuff. Below, you’ll find some of my posts—there aren’t many yet, but I’m working on it!"
-  mainSection = "posts"
-  mainSectionTitle = "Blog"
-  showAllPostsOnHomePage = false
-  postsOnHomePage = 5
-  tagsOverview = true
-  showProjectsList = true
-  projectsUrl = "https://github.com/nimishgo"
-  googleAnalytics = "G-RF9W9EMXLG" 
-  rss = true
-  mathjax = true  # not required
-
+colortheme = 'dark'
+css = ["css/custom.css"]
+description = "Hello and welcome to my cyberspace! I'm just a guy who loves programming, gaming, learning, and watching all kinds of stuff. Below, you’ll find some of my posts—there aren’t many yet, but I’m working on it!"
+mainSection = "posts"
+mainSectionTitle = "Blog"
+showAllPostsOnHomePage = true
+postsOnHomePage = 5
+tagsOverview = true
+showProjectsList = true
+projectsUrl = "https://github.com/nimishgo"
+googleAnalytics = "G-RF9W9EMXLG"
+rss = true
+mathjax = true                                                                                                                                                                                                                 # not required
 
 
 [markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    noHl = false
-    style = 'monokai'
-    tabWidth = 4
-
-
-
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
 
 
 # Main menu which appears below site header.
@@ -64,16 +60,20 @@ name = "About"
 url = "/about"
 weight = 5
 
-[[params.social]]
-  name = "github"
-  link = "https://github.com/nimishgo"
-[[params.social]]
-  name = "twitter"
-  link = "https://x.com/nimish256"
-[[params.social]]
-  name = "email"
-  link = "nimish.2711@gmail.com"  # no need for "mailto:" in the head
-[[params.social]]
-  name = "discord"
-  link = "https://www.discord.com/users/ncryptysh"  # no need for "mailto:" in the head
+[[menu.main]]
+name = "Resume"
+url = "/resume.pdf"
+weight = 7
 
+[[params.social]]
+name = "github"
+link = "https://github.com/nimishgo"
+[[params.social]]
+name = "twitter"
+link = "https://x.com/nimish256"
+[[params.social]]
+name = "email"
+link = "nimish.2711@gmail.com" # no need for "mailto:" in the head
+[[params.social]]
+name = "discord"
+link = "https://www.discord.com/users/ncryptysh" # no need for "mailto:" in the head
