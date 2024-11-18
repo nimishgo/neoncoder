@@ -62,7 +62,7 @@ weight = 5
 
 [[menu.main]]
 name = "Resume"
-url = "/resume.pdf"
+url = "/my_resume.pdf"
 weight = 7
 
 [[params.social]]
